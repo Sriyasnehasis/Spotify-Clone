@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Underdog&display=swap');
+
+body{
+    background-color: rgba(31, 30, 30, 0.838);
+}
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+nav{
+    font-family:'Underdog' , sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items:center;
+    list-style-type: none;
+    height: 45px;
+    background-color: black;
+    color:white
+
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+.brand img{
+    width:45px;
+    padding: 0 8 px;
+   
+
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.9rem
+
+}
+
+.container{
+    min-height:72vh;
+    background-color: black;
+    color: rgb(129, 0, 0);
+    font-size:large;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    width:60%;
+    margin: 25px auto;
+    border-radius: 20px;
+    padding: 34px;
+    background-image:url('bg.jpg') ;
+   
+
+}
+
+.bottom{
+    position:sticky;
+    height:140px;
+    background-color: black;
+    color: rgba(230, 242, 225, 0.425);
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-size:larger;
+    font-style:italic;
+}
+#masterSongName {
+    font-size: 1.5rem; 
+    font-weight:800; 
+    color:peachpuff;
+    position:absolute;
+    top: 21px; 
+    text-align:center; 
+}
+.icons{
+    margin-top: 17 px;
+}
+.icons{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:55vw;
+    cursor: pointer;
+    color:darkolivegreen;
+
+
+}
+.songItemContainer{
+    margin-top: 64px;
+
+}
+.songItem{
+    height: 68px;
+    display: flex;
+    background-color:rgba(190, 189, 184, 0.532);
+    width: 150%;
+    
+    color: rgb(0, 0, 0);
+    margin: 13px 0;
+    justify-content: space-between;
+    align-items:center;
+    border-radius: 27px;
+
+
+}
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 25px;
+
+}
+.timestamp{
+    margin: 0 23px;
+
+
+}
+.timestamp i{
+    cursor: pointer;
+
+}
+.songInfo{
+    position:absolute;
+    left: 2vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    
+}
