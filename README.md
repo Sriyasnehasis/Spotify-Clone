@@ -20,9 +20,7 @@ A visually stunning **Spotify-inspired music streaming web application** built u
 - 🎵 Dynamic song list  
 - ⏮️ Skip to previous/next song  
 - ⌛ Song progress bar  
-- 📱 Responsive UI for mobile and desktop  
-- 📂 Organized folder structure (HTML, CSS, JS)
-
+ 
 ---
 
 ## 🎧 Spotify Clone Interface
